@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: rgb(67, 67, 219);
+    padding: 10px 10px;
+    justify-items: center;
+}
+
+.header__logo {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.2px;
+    font-size: 30px;
+    color: white;
+    margin-left: 20px;
+    
+}
+
+ul {
+    display: flex;
+    justify-items: center;
+    padding-top: 10px;
+}
+
+ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    margin-left: 20px;
+
+}
+ul li a {
+    text-decoration: none;
+    color: white;
+    word-spacing: 3px;
+}
+
+.header__button-download_app {
+    margin-right: 20px;
+   
+}
+
+.header__button-download_app button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+   
+}
